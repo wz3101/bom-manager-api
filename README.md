@@ -1,8 +1,8 @@
-# 🛠️ BOM Manager API
+# BOM Manager API
 
 A full-featured RESTful API built with **Node.js**, **Express**, and **PostgreSQL** to manage a Bill of Materials (BOM) system.
 
-## 🔧 Tech Stack
+##Tech Stack
 - Node.js
 - Express.js
 - PostgreSQL
@@ -11,13 +11,13 @@ A full-featured RESTful API built with **Node.js**, **Express**, and **PostgreSQ
 - CORS
 - Postman (for API testing)
 
-## 🚀 Features
+## Features
 - Full CRUD operations for parts
 - Clean MVC folder structure
 - PostgreSQL integration
 - Environment variables for security
 
-## 📦 API Endpoints
+##API Endpoints
 
 | Method | Route            | Description            |
 |--------|------------------|------------------------|
@@ -27,7 +27,7 @@ A full-featured RESTful API built with **Node.js**, **Express**, and **PostgreSQ
 | PUT    | /parts/:id       | Update a part          |
 | DELETE | /parts/:id       | Delete a part          |
 
-## 📂 Sample POST Body
+## Sample POST Body
 ```json
 {
   "name": "Resistor",
